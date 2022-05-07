@@ -134,26 +134,6 @@ font-size: 3rem;
 }
 
 
-
-/* Ubicaciòn */
-
-.main_card{
-min-height: 90vh;
-display: grid;
-flex-direction: row-reverse;
-justify-content: center;
-}
-
-.card_ubicacion{
-    margin-top: 20px;
-    justify-content:space-around ;
-    width: 100%;
-    height: 100%;
-}
-
-
-
-
 @media screen (max-width:480px){
  
 
@@ -212,16 +192,6 @@ font-size: 1rem;
 }
 
 
-#Footer__Contacto
-{
-display: grid;
-align-items: center;
-text-align: center;
-width: 100%;
-height: 100%;
-font-size: 1rem;
-}
-
 
 
 
@@ -240,6 +210,10 @@ flex-direction: column;
 justify-content: center;
 }
 
+.header__menu ul li{
+flex-direction: row;
+justify-content: center;
+}
 
 }
 
@@ -469,3 +443,56 @@ color: white;
 font-size: 40px;
 margin-left: 10px;
 }
+
+
+/* Ubicaciòn */
+
+
+.main_card{
+display: flex;
+margin-bottom: 20px;
+margin-top: 20px;
+justify-content: space-between;
+
+}
+.contenedor
+{   
+    display: flex;
+	width: 1024px;
+	margin: 0 auto;
+	height: 500px;
+}
+
+.ubicacion{
+    background: #9a9eab;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.p-horario {
+color: black;
+font-weight: bold;
+    }
+		
+.mapa{
+width: 100%;
+height: 500px;
+margin-top: 10px;
+margin-bottom: 20px;
+    }
+
+.Footer__Contacto
+    {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    }
+    
+
